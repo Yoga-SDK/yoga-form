@@ -1,0 +1,27 @@
+{
+    "name": "yoga/form",
+    "description": "Yoga Form Build Package",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Gustavo Vilas Boas",
+            "email": "gustavo.boas@startaideia.com.br"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Yoga\\Form\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yoga\\Form\\FormServiceProvider"
+            ]
+        }
+    }
+}
